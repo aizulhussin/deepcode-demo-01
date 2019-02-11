@@ -18,9 +18,9 @@ res.send('Hello World!');
 //}
 
 //declare unused variable with no semicolon
-b = "hello"
+var b = "hello"
 
-a = 7
+var a = 7
 
 if(a=1){
     console.log("Intended bug to test if deepcode detect this")
