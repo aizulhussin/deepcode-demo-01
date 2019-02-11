@@ -13,8 +13,17 @@ app.get('/', function (req, res) {
 res.send('Hello World!');
 });
 
-try{
-    console.log("Try no catch")
+//try{
+//    console.log("Try no catch")
+//}
+
+//declare unused variable with no semicolon
+b = "hello"
+
+a = 7
+
+if(a=1){
+    console.log("Intended bug to test if deepcode detect this")
 }
 
 app.listen(3000, function () {
