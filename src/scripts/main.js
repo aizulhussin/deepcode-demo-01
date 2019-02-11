@@ -1,5 +1,5 @@
 const path = require('path')
-const http = require('http')
+const http = require('https')
 const express = require('express')
 const vhost = require('vhost')
 const serverReady = require('server-ready')
