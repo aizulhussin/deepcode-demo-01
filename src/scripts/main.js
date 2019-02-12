@@ -13,24 +13,14 @@ app.get('/', function (req, res) {
 res.send('Hello World!');
 });
 
-//try{
-//    console.log("Try no catch")
-//}
-
-//declare unused variable with no semicolon
-var b = "hello"
+var b = "7"
 
 var a = 7
 
-if(a==1){
-    console.log("Intended bug to test if deepcode detect this")
+if(a===b){
+    console.log("a is b")
 }
 
-
-var s = 'mystring';
-for (var i = 0; i < s.length; i++) {
-  console.log(s.charAt(i));
-}
 
 app.listen(3000, function () {
 console.log('Example app listening on port 3000!');
